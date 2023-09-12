@@ -349,4 +349,4 @@ class DashboardController extends AccountBaseController
         return $eventData;
     }
 
-}
+} 
