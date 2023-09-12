@@ -280,7 +280,7 @@ return array(
         'purchaseDate' => 'Purchase Date',
         'product' => 'Product',
         'mark' => 'Mark',
-        'exportPdf' => 'Export To PDF',
+        'exportPdf' => 'Export To PDF', 
         'version' => 'Version',
         'currentVersion' => 'Current Version',
         'latestVersion' => 'Latest Version',
