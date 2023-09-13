@@ -418,6 +418,7 @@ return array(
         'selectProductCategory' => 'Select Product Category',
         'listView' => 'List View',
         'signUpSetting' => 'Sign Up Settings',
+        'custom-clients' => 'Custom Clients',
     ),
     'parentId' => 'Parent',
     'childId' => 'Child',

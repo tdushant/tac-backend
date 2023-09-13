@@ -1668,6 +1668,31 @@ class Module extends BaseModel
             'module_name' => 'messages',
             'permissions' => []
         ],
+        [
+            'module_name' => 'custom-clients',
+            'permissions' => [
+                [
+                    'allowed_permissions' => Permission::ALL_NONE,
+                    'is_custom' => 0,
+                    'name' => 'add_custom_client',
+                ],
+                [
+                    'allowed_permissions' => Permission::ALL_4_ADDED_1_NONE_5,
+                    'is_custom' => 0,
+                    'name' => 'view_custom_client',
+                ],
+                [
+                    'allowed_permissions' => Permission::ALL_4_ADDED_1_NONE_5,
+                    'is_custom' => 0,
+                    'name' => 'edit_custom_client',
+                ],
+                [
+                    'allowed_permissions' => Permission::ALL_4_ADDED_1_NONE_5,
+                    'is_custom' => 0,
+                    'name' => 'delete_custom_client',
+                ],
+            ]
+        ],
         ...self::SUPERADMIN_MODULE_LIST
     ];
 

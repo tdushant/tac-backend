@@ -49,6 +49,7 @@ class ModuleSetting extends BaseModel
             'payments',
             'orders',
             'knowledgebase',
+            'custom-clients',
         ];
 
     const OTHER_MODULES = [
