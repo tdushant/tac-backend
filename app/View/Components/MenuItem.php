@@ -13,7 +13,7 @@ class MenuItem extends Component
     public $active;
     public $addon;
     public $count;
-
+ 
     /**
      * Create a new component instance.
      *

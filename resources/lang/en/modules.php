@@ -1668,6 +1668,7 @@ return array(
         'emergency_contact' => 'Emergency Contact',
         'recruit' => 'Recruit',
         'bankaccount' => 'Bank Account',
+        'custom-clients' => 'Custom Clients',
     ),
     'projectSettings' => array(
         'sendNotificationsTo' => 'Send Reminder To',

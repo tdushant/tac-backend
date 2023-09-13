@@ -81,6 +81,7 @@ class ClientController extends AccountBaseController
             $this->totalClients = count($this->clients);
         }
 
+
         return $dataTable->render('clients.index', $this->data);
     }
 

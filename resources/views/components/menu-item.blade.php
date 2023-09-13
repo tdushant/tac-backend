@@ -1,5 +1,6 @@
 <li {{ $attributes->merge(['class' => 'accordionItem closeIt']) }}>
 
+
     @if (!is_null($link))
         <a class="nav-item text-lightest f-15 sidebar-text-color" href="{{ $link }}"
            title="{{ $text }}">
@@ -23,6 +24,7 @@
             @endif
         </a>
     @else
+
         <a class="nav-item text-lightest f-15 sidebar-text-color accordionItemHeading {{ $active == 1 ? 'active' : '' }}"
            title="{{ $text }}">
             @isset($iconPath)
